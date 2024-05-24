@@ -1,0 +1,10 @@
+footer {
+    position: fixed; /* This is to keep the footer at the bottom of the page */
+    bottom: 0; /* This is to keep the footer at the bottom of the page */
+    width: 100%;
+    height: 60px;
+    text-align: center; /* This is to center the text horizontally */
+    background-color: white;
+    line-height: 60px; /* This is to center the text vertically */
+    border-top: 1px solid #CCCCCC;
+}

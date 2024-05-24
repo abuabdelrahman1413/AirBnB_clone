@@ -1,9 +1,23 @@
 footer {
-		position: fixed; /* This is to keep the footer at the bottom of the page */
-		bottom: 0; /* This is to keep the footer at the bottom of the page */
-		width: 100%;
-		height: 60px;
-		text-align: center; /* This is to center the text horizontally */
-		background-color: #00FF00;
-		line-height: 60px; /* This is to center the text vertically */
+    background-color: #00FF00;
+    /* Sets the background color of the footer to green using a hexadecimal color code. */
+    height: 60px;
+    /* Sets the height of the footer to 60 pixels. */
+    width: 100%;
+    /* Sets the width of the footer to 100% of the viewport width. */
+    bottom: 0;
+    /* Positions the footer at the bottom of the viewport. */
+    position: fixed;
+    /* Fixes the footer's position so it stays at the bottom of the viewport even when the page is scrolled. */
+    text-align: center;
+    /* Centers the text horizontally within the footer. */
+    /* Alternative options for text-align: */
+    /* text-align: left; Aligns text to the left */
+    /* text-align: right; Aligns text to the right */
+    /* text-align: justify; Stretches lines so that each line has equal width and the left and right margins are straight */
+    line-height: 60px;
+    /* Sets the line height to 60 pixels, vertically centering the text within the footer. */
+    /* Alternative options for line-height: */
+    /* line-height: normal; A normal line height, as defined by the browser */
+    /* line-height: 1.5; A relative line height, where 1.5 means 1.5 times the font size */
 }

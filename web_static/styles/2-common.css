@@ -1,4 +1,5 @@
 body {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    /* Removes default margin and padding applied by the browser to ensure consistent spacing. */
 }
