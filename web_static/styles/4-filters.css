@@ -4,7 +4,10 @@
   width: 100%;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .container .filters button {
@@ -15,10 +18,7 @@
   width: 20%;
   border: none;
   border-radius: 4px;
-  position: absolute;
-  right: 30px;
-  top: 50%;
-  transform: translateY(-50%); /* Center vertically */
+  margin-right: 30px;
 }
 
   /* opacity 90% when mouse over */
